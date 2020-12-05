@@ -1,2 +1,2 @@
-# Pawprint Prototyping Administrative Documents
-Administrative resources for Pawprint Prototyping
+# Administrative Documents
+Administrative resources for the org
