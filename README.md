@@ -8,11 +8,13 @@ This repository includes some automation to handle monthly agenda tasks. The
 automation is handled by a GitHub Action that runs on the first of every month.
 
 ## Setup
+```shell
 cp config-template.json config.json
 vi config.json
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+```
 
 ## Repository configuration
 ```shell
