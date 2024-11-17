@@ -6,7 +6,7 @@ jobs:
   setup:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/setup-python
+      - uses: actions/setup-python@v2
         with:
           python-version: '3.x'
       - run: pip install -r requirements.txt
@@ -15,4 +15,3 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: ./new_agenda.py
- 
